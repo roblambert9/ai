@@ -1,5 +1,21 @@
 # ai
 
+## 7.0.107
+
+### Patch Changes
+
+- 79681c4: fix(ai): preserve provider file and skill upload APIs in wrapProvider
+- 31532f3: fix(ai): prevent preliminary tool outputs from completing chats
+- 970a01e: fix(ai): enforce polling timeouts for in-flight video status requests
+- 85539c5: fix(ai): preserve multiple Set-Cookie headers in Node stream responses
+- 611d301: fix(ai): prevent duplicate content types in chat transport requests
+- c415657: fix(ai): decode base64 text data URLs using their declared charset
+- Updated dependencies [2973485]
+- Updated dependencies [a4db5ea]
+- Updated dependencies [2937ea2]
+  - @ai-sdk/provider-utils@5.0.45
+  - @ai-sdk/gateway@4.0.87
+
 ## 7.0.106
 
 ### Patch Changes
